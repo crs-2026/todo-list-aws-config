@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "todo-list-aws-production"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-w2rxf671dndk"
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = false
+fail_on_empty_changeset = false
+parameter_overrides = "Stage=\"production\""
+region = "us-east-1"
